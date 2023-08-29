@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="event.css" />
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h1>Event Registration Form</h1>
+            <div class="form-control">
+                <label for="username">Name:</label>
+                <input type="text" id="username"/> 
+            </div>
+            <div class="form-control">
+                <label for="collegename">College Name:</label>
+                <input type="text" id="collegename"/>
+            </div>
+            <div class="form-control">
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                    <option value="select">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+
+                </select>
+            </div>
+            <div class="form-control">
+                <label for="email">Email:</label>
+                <input type="text" id="email"/>
+            </div>
+            <div class="form-control">
+                <label for="phoneno">Phone No:</label>
+                <input type="text" id="phoneno"/>
+            </div>
+            <div class="form-control">
+                <label for="course">Course:</label>
+                <input type="text" id="course"/>
+            </div>
+            <button> Register</button>
+
+
+        </form> 
+    </div>
+    
+    <script src="event.js"></script>
+    
+</body>
+</html>
